@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Netflix Sans';
+    font-weight: 100;
+    
+}
+
+body{
+    
+/* height: 1024px; */
+background-color:#141414;
+
+
+}
+
+header{
+    margin:2rem 0 9rem 2rem;
+    
+}
+
+header > img{
+    width: 111px;
+    height: 30px;
+}
+
+.top-text{
+    /* position: absolute; */
+    margin: auto;
+    color: #FFFFFF;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 82px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    width: 336px;
+    height: 82px;
+    margin-bottom: 30px;
+
+
+
+}
+
+.container{
+    /* margin: auto; */
+    display: flex;  
+    flex-direction: column;
+    justify-items: center;  
+    align-items: center;
+    /* position: relative; */
+    margin-top: -90px;
+    margin-right: 100px;
+     
+
+}
+
+
+
+.box{
+  width: 900px;
+  height: 378px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+
+}
+
+.box + img{
+    width: 150px;
+    height: 150px;
+
+}
+
+.image-text1 > p {
+
+font-size: 26px;
+font-weight: 400;
+line-height: 33px;
+letter-spacing: 0em;
+text-align: center;
+
+color: #6D6D6EB2;
+}
+
+.boxtext{
+   
+font-size: 26px;
+font-weight: 400;
+line-height: 33px;
+letter-spacing: 0em;
+
+color: #808080;
+margin-bottom: 40px;
+border: 1px solid ;
+padding: 10px;
+
+
+
+}
+a{
+    text-decoration: none;
+}
+
+
+
